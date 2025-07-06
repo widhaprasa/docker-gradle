@@ -1,4 +1,4 @@
-FROM gradle:8.6.0-jdk17-focal
+FROM gradle:8.10.2-jdk17-focal
 
 ENV ANDROID_HOME=/opt/android-sdk
 ENV PATH=${ANDROID_HOME}/cmdline-tools/latest/bin:${ANDROID_HOME}/platform-tools:$PATH
